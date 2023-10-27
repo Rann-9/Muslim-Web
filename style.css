@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ini utk font */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #FFC288;
+}
+
+/* NAVBAR */
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 8%;
+    background-color: #FCECDD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: black;
+    display: none;
+}
+
+.logo {
+    width: 4rem;
+}
+
+.navbar a {
+    color: rgb(47, 41, 41);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 2rem;
+}
+
+.navbar a:hover {
+    color: #FF6701;
+    transition: .5s;
+}
+
+.tombol a {
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    background: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.tombol a:hover {
+    color: white;
+    background-color: #FF6701;
+    transition: .5s;
+}
+
+/* HOME */
+.awal {
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gambar {
+    width: 68rem;
+    height: 17.5rem;
+}
+
+/* JADWAL SHOLAT */
+.container {
+    margin: 20px 9rem;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-header {
+    padding: 2rem;
+    border-radius: .5rem .5rem 0 0;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #FEA82F;
+    color: rgb(82, 73, 73);
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    font-weight: 550;
+}
+
+.lokasi {
+    justify-content: center;
+    display: flex;
+    gap: 5rem;
+}
+
+.lokasi p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#prov {
+    font-size: 1.2rem;
+}
+
+#city {
+    font-size: 1.2rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-primary th {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #FF6701;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+.table td {
+    text-align: center;
+    padding: 8px;
+    background-color: #FCECDD;
+}
+
+.table-primary td {
+    color: white;
+    background-color: #FF6701;
+}
+
+/* Asmaul Husna */
+#result {
+    padding: 2rem 3rem 3rem;
+    margin: 3rem 4rem 4rem;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 50fr);
+}
+
+.kotak {
+    width: 20rem;
+    height: 12rem;
+    margin-bottom: 1rem;
+    border-radius: 1.2rem;
+}
+
+.kecil {
+    width: 20rem;
+    border-radius: 5rem;
+    background-color: #FEA82F;
+    padding-top: .3rem;
+    padding-bottom: .4rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+.nomer {
+    background-color: #FF6701;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    text-align: center;
+    border-radius: 3rem;
+    margin-top: .2rem;
+    color: white;
+}
+
+.save {
+    width: .875rem;
+    height: 1.75rem;
+}
+
+.nama {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.arab {
+    margin-top: .4rem;
+    margin-right: .5rem;
+    text-align: right;
+    font-size: 2rem;
+    color: white;
+}
+
+.arti {
+    margin-right: .5rem;
+    text-align: right;
+    font-size: 1rem;
+    margin-top: .3rem;
+    color: #FF6701;
+}
+
+.line {
+    margin-top: 1rem;
+    border-top: 3px solid #FF6701;
+    width: 100%;
+}
+
+.ayat {
+    margin-right: .5rem;
+    text-align: right;
+    font-size: 1rem;
+    color: #FF6701;
+    
+}
+
+.kotak .kecil .save {
+    width: .9rem;
+    height: 1.25rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#result :hover {
+    transform: scale(1.05);
+    transition: .5s;
+}
