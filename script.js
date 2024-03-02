@@ -9,7 +9,7 @@ console.log(dd, mm, yyyy);
 const now = yyyy + '-' + mm + '-' + dd;
 
 // Jadwal Sholat API
-const jadwalApi = `https://api.myquran.com/v1/sholat/jadwal/${city}/${yyyy}/${mm}`;
+const jadwalApi = `https://api.myquran.com/v2/sholat/jadwal/${city}/${yyyy}/${mm}`;
 
 fetch(jadwalApi)
 .then(function (response) {
